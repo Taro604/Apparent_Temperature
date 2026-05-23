@@ -113,7 +113,7 @@ function calculate() {
             極可能發生中暑、熱痙攣和熱衰竭。長時間暴露在陽光下或進行體力活動有可能發生嚴重中暑。建議市民避免戶外劇烈活動、穿著輕便及淺色的衣物、補充足夠水分，特別關注易受影響的族群。
         </div>`;
     }
-    else if (AT >= 48 && AT <= 55) {
+    else if (AT >= 48 && AT <= 100) {
         warningBox = `
         <div class="box purple">
             🟣 極度危險<br><br>
@@ -123,7 +123,7 @@ function calculate() {
     else {
         warningBox = `
         <div class="box safe">
-            ✅ 現時沒有熱帶氣旋危險信號。
+            ✅ 正常。
         </div>`;
     }
 
